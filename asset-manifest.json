@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/akash-tour-travel/static/css/main.16122918.css",
-    "main.js": "/akash-tour-travel/static/js/main.2d71c98d.js",
+    "main.css": "/akash-tour-travel/static/css/main.5c8b784a.css",
+    "main.js": "/akash-tour-travel/static/js/main.1abe956d.js",
     "static/js/787.4bc6d4b6.chunk.js": "/akash-tour-travel/static/js/787.4bc6d4b6.chunk.js",
     "static/media/3.jpg": "/akash-tour-travel/static/media/3.617dd16ed6e169bba632.jpg",
     "static/media/2.jpg": "/akash-tour-travel/static/media/2.a7b06b72ad46c3a7deca.jpg",
@@ -9,12 +9,12 @@
     "static/media/1.jpg": "/akash-tour-travel/static/media/1.3de11ccc90e1c4315e83.jpg",
     "static/media/whatsapp.png": "/akash-tour-travel/static/media/whatsapp.ac93e6adff7392cab368.png",
     "index.html": "/akash-tour-travel/index.html",
-    "main.16122918.css.map": "/akash-tour-travel/static/css/main.16122918.css.map",
-    "main.2d71c98d.js.map": "/akash-tour-travel/static/js/main.2d71c98d.js.map",
+    "main.5c8b784a.css.map": "/akash-tour-travel/static/css/main.5c8b784a.css.map",
+    "main.1abe956d.js.map": "/akash-tour-travel/static/js/main.1abe956d.js.map",
     "787.4bc6d4b6.chunk.js.map": "/akash-tour-travel/static/js/787.4bc6d4b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16122918.css",
-    "static/js/main.2d71c98d.js"
+    "static/css/main.5c8b784a.css",
+    "static/js/main.1abe956d.js"
   ]
 }

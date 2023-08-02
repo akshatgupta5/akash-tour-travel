@@ -76,10 +76,10 @@ data-aos-easing="ease-in-out-cubic"
 
       {/* <!-- contact --> */}
       <section id="contact">
-        <h1>Contact</h1>
+        <h1 className="jumbotron my-3">Contact</h1>
         <div className="row">
           <div
-            className="col-xs-12 col-sm-6 col-md-6"
+            // className="col-xs-12 col-sm-6 col-md-6"
             data-aos="fade-up"
             data-aos-duration="3000"
             data-aos-delay="50"

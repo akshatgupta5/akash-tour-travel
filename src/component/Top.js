@@ -16,12 +16,12 @@ function Top(props) {
     >
       <div className="container-fluid">
         <span className="navbar-brand">
-          <span style={{color:'red'}}>AKASH </span>
+          <span style={{color:'red'}}>Akash </span>
         {props.title}
         </span>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            {/* <li className="nav-item">
+        <div className="navbar" id="navbarSupportedContent">
+          {/* <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
@@ -30,12 +30,13 @@ function Top(props) {
               <a className="nav-link" href="#">
                 {props.about}
               </a>
-            </li> */}
-          </ul>
-            <img className="whatsapp" id="whatsappButton" src={require("../images/whatsapp.png")} alt="h" onClick={whatsapp}/>
-          <span className="mx-2" style={normalmode}>Contact Us</span>
-          <div
-            className={`form-check form-switch mx-2 text-${
+            </li>
+          </ul> */}
+          <span className="bt" onClick={whatsapp}>
+            <img className="whatsapp" id="whatsappButton" src={require("../images/whatsapp.png")} alt="h" />
+          <span className="mx-2" style={normalmode}>Contact Us </span></span>
+          {/* <div
+            className={`form-check form-switch text-${
               props.mode === "light" ? "dark" : "light"
             }`}
           >
@@ -48,7 +49,7 @@ function Top(props) {
             <label className="form-check-label" htmfor="flexSwitchCheckDefault">
               Enable {props.mode === "light" ? "dark" : "light"} Mode
             </label>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

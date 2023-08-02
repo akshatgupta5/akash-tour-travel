@@ -15,9 +15,12 @@
   max-width: 100%;
   height: 100%;
 }
+.bt {
+  cursor:pointer;
+}
 .jumbotron {
-  height: 10px;
-  margin-bottom: 2%;
+  height: auto;
+  margin-bottom: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +30,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
+  max-width: 100%;
 }
 
 header {

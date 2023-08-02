@@ -1,5 +1,5 @@
 import './App.css';
-import Topp from './component/Top';
+import Top from './component/Top';
 import Text from './component/Text';
 import { useState } from 'react';
 function App() {
@@ -18,9 +18,9 @@ function App() {
   return (
     <>
     {/* console.log({a}) */}
-    <Topp title="Tour & Travels" mode={mode} togglemode={tooglemode}/>
+    <Top title="Tour & Travels" mode={mode} togglemode={tooglemode}/>
     <div className="container">
-    <Text title="Enter Text" mode={mode} togglemode={tooglemode}/>
+    <Text mode={mode} togglemode={tooglemode}/>
     </div>
     </>
   );

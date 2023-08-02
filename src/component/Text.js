@@ -16,7 +16,7 @@ export default function Text(props) {
       data-aos-easing="ease-in-out-cubic"
     >
       <div className="jumbotron">
-        <h1>Discover the World with Our Extraordinary Travel Experiences!</h1>
+        <h1 className="jumb">Discover the World with Our Extraordinary Travel Experiences!</h1>
       </div>
       <p>"Welcome to Our World of Wanderlust and Adventure!
 
@@ -85,9 +85,9 @@ data-aos-easing="ease-in-out-cubic"
             data-aos-delay="50"
             data-aos-easing="ease-in-out-cubic"
           >
-            <div className="well well-lg"><img src={require("../images/Card.jpg")} alt="Card" /></div>
+            <div className="well well-lg"><img src={require("../images/Card.jpg")} alt="Card" className="service-image"/></div>
           </div>
-          <div
+          {/* <div
             className="col-xs-12 col-sm-6 col-md-6"
             data-aos="fade-down"
             data-aos-duration="3000"
@@ -95,7 +95,7 @@ data-aos-easing="ease-in-out-cubic"
             data-aos-easing="ease-in-out-cubic"
           >
             <div className="well well-lg"><h1>7</h1></div>
-          </div>
+          </div> */}
         </div>
       </section>
     </main>
